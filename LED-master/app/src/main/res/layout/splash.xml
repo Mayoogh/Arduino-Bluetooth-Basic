@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="#f44336">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="252dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/led"
+        android:layout_marginTop="135dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="LED Controller"
+        android:textColor="#212121"
+        android:textSize="35dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

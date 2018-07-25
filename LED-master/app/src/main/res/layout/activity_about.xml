@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.led_on_off.led.AboutActivity"
+    android:background="#212121">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="About Developer"
+        android:id="@+id/abt_txt"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#f44336" />
+
+    <ImageView
+        android:id="@+id/developer"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:src="@drawable/developer" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The LED controller application is developed by Mayoogh Girish                 This application allows you to control a LED via Bluetooth "
+        android:id="@+id/textView4"
+        android:textSize="22dp"
+        android:textColor="#f44336"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_below="@+id/developer"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp" />
+
+
+    <ImageButton
+        android:id="@+id/facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:onClick="fb"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="450dp"
+        android:src="@drawable/facebook_red" />
+
+    <ImageButton
+        android:id="@+id/twitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:onClick="tweet"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="450dp"
+        android:src="@drawable/twitter_red" />
+
+    <ImageButton
+        android:id="@+id/instagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:onClick="insta"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="450dp"
+        android:src="@drawable/instagram_red" />
+
+    <ImageButton
+        android:id="@+id/website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:onClick="web"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="450dp"
+        android:src="@drawable/web_red" />
+
+
+</RelativeLayout>
