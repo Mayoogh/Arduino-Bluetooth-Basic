@@ -6,4 +6,6 @@ Tutorial : https://igniteinnovateideas.wordpress.com/2016/04/18/arduino-bluetoot
 
 Website : https://http://mayooghgirish.ml
 
+<h2><B>NOTE : This Application does not support Bluetooth Low Energy (BLE). Only works with SPP</B></h2>
+
 
