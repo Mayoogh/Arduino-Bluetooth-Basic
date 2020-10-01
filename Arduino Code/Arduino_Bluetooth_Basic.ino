@@ -20,8 +20,13 @@ void loop()
     Serial.print("\n");        //New line 
     if(Incoming_value == '1')            //Checks whether value of Incoming_value is equal to 1 
       digitalWrite(13, HIGH);  //If value is 1 then LED turns ON
-    else if(Incoming_value == '0')       //Checks whether value of Incoming_value is equal to 0
-      digitalWrite(13, LOW);   //If value is 0 then LED turns OFF
+    else if(Incoming_value == '2')       //Checks whether value of Incoming_value is equal to 2
+      digitalWrite(13, HIGH);   //If value is 2 then LED turns OFF
+      delay(500);           
+      digitalWrite(13, LOW);//led turns on for 0.5 sec
+      delay(1000)          
+    else (Incoming_value == '0')   //turn off
+      digitalWrite(13, HIGH);
   }                            
  
 }                 
