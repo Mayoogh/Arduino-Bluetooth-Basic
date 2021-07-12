@@ -6,6 +6,6 @@ Project Documentation can be found [here](http://mgprojecthub.com/arduino-blueto
 
 
 <h2><B>NOTE : This Application does not support Bluetooth Low Energy (BLE). Only works with SPP</B></h2>
-feature
+change1
 
 
