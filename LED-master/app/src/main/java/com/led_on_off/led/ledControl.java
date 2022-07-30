@@ -1,6 +1,6 @@
 package com.led_on_off.led;
 
-import android.support.v7.app.ActionBarActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -20,7 +20,7 @@ import java.io.IOException;
 import java.util.UUID;
 
 
-public class ledControl extends ActionBarActivity {
+public class ledControl extends AppCompatActivity {
 
    // Button btnOn, btnOff, btnDis;
     Button On, Off, Discnt, Abt;
@@ -132,14 +132,14 @@ public class ledControl extends ActionBarActivity {
         Toast.makeText(getApplicationContext(),s,Toast.LENGTH_LONG).show();
     }
 
-    public  void about(View v)
-    {
-        if(v.getId() == R.id.abt)
-        {
-            Intent i = new Intent(this, AboutActivity.class);
-            startActivity(i);
-        }
-    }
+//    public  void about(View v)
+//    {
+//        if(v.getId() == R.id.abt)
+//        {
+//            Intent i = new Intent(this, AboutActivity.class);
+//            startActivity(i);
+//        }
+//    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
