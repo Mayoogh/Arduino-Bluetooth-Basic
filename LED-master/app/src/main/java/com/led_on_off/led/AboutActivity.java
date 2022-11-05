@@ -3,10 +3,10 @@ package com.led_on_off.led;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.view.View;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class AboutActivity extends ActionBarActivity
+public class AboutActivity extends AppCompatActivity
 {
 
     @Override
